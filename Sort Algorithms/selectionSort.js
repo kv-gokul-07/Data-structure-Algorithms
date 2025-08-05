@@ -1,10 +1,10 @@
-let arr1 = [0, 2, 1, 3, 1, 10, 9, 4]
+let arr1 = [1, 4, 10, 2, 17, 1000, 5, 0]
 
 function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         let midValue = i;
         for (let j = i + 1; j < arr.length; j++) {
-            if (arr[i] > arr[j]) {
+            if (arr[midValue] > arr[j]) {
                 midValue = j
             }
         }

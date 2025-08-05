@@ -1,4 +1,4 @@
-let arr1 = [0, 2, 5, 1, 3, 9, 4]
+let arr1 = [1, 4, 10, 2, 17, 1000, 5, 0]
 
 function bubbleSort(arr) {
      let temp;
